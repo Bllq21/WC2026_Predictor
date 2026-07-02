@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+mise.local.toml
+.DS_Store
+results.csv
+shootouts.csv
+*.csv
+outputs/*.png
