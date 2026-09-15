@@ -185,6 +185,15 @@ outputs/              # gráficas generadas con --save (ignorado por git)
 - Subir `max_teams` del modelo bayesiano aprovechando más cores.
 - Notebook exploratorio una vez estabilizado el código base.
 
+## Solución de problemas
+
+- **Falta `results.csv`:** descargá los dos CSV con los comandos de instalación
+  de arriba.
+- **Errores de compilación de PyMC en macOS:** ejecutá
+  `xcode-select --install` y volvé a intentar.
+- **No aparece un equipo:** usá `python find_team.py <nombre>`. Los nombres de
+  equipo están en inglés y sin tildes.
+
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).

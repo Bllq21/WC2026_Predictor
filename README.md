@@ -183,6 +183,14 @@ outputs/              # plots generated with --save (git-ignored)
 - Raise the Bayesian model's `max_teams` by using more cores.
 - Add an exploratory notebook once the codebase stabilises.
 
+## Troubleshooting
+
+- **`results.csv` is missing:** download both CSV files with the setup
+  commands above.
+- **PyMC build errors on macOS:** run `xcode-select --install` and retry.
+- **A team is not found:** use `python find_team.py <name>`. Team names are in
+  English and without accents.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
